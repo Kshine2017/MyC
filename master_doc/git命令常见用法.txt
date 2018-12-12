@@ -15,6 +15,8 @@ git chechout aaa 切换分支aaa
 git branck aaa 创建aaa分支 
 git chechout -b aaa 本地创建 aaa分支，同时切换到aaa分支。只有提交的时候才会在服务端上创建一个分支
 
+git push origin aaa 将新增的分支aaa更新到远端服务器
+
 4、commit message
 Git 每次提交代码，都要写 Commit message（提交说明），否则就不允许提交。
 $ git commit -m "hello world"
